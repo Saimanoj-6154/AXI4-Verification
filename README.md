@@ -61,3 +61,14 @@ make compile          # compiles RTL + TB sources
 make run TEST=axi4_write_read_test   # runs a specific test
 make regress           # runs full regression test list
 ```
+
+### Waveforms
+```bash
+make waves TEST=axi4_write_read_test
+```
+
+### Coverage Report
+```bash
+make cov_report
+```
+
