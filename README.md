@@ -35,3 +35,19 @@ axi4-verification/
 ├── docs/                   # verification plan, coverage plan
 └── README.md
 ```
+
+---
+
+## Tools & Environment
+
+| Category          | Tool(s)                          |
+|--------------------|-----------------------------------|
+| HDL / Verification | SystemVerilog, UVM 1.2, SVA       |
+| Simulation          | QuestaSim / ModelSim               |
+| Waveform             | GTKWave / QuestaSim WLF viewer     |
+| Scripting             | Tcl, Makefile                      |
+| Coverage               | Functional + code coverage (simulator native) |
+
+> Update this table to match the exact simulator/version you used (e.g., Verilator vs QuestaSim) — coverage and assertion support differ between them.
+
+---
