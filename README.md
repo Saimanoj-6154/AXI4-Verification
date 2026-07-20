@@ -48,6 +48,16 @@ axi4-verification/
 | Scripting             | Tcl, Makefile                      |
 | Coverage               | Functional + code coverage (simulator native) |
 
-> Update this table to match the exact simulator/version you used (e.g., Verilator vs QuestaSim) — coverage and assertion support differ between them.
-
 ---
+
+### Prerequisites
+- A SystemVerilog simulator with UVM 1.2 support (e.g., QuestaSim, VCS, Xcelium; Verilator with limited UVM support)
+- `UVM_HOME` set to your UVM library installation
+
+### Compile & Run
+```bash
+cd sim
+make compile          # compiles RTL + TB sources
+make run TEST=axi4_write_read_test   # runs a specific test
+make regress           # runs full regression test list
+```
