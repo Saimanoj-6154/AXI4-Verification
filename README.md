@@ -81,6 +81,12 @@ make cov_report
 | FIXED burst                    | ✅ |
 | Narrow transfers                | ✅ |
 | Unaligned start address          | ✅ |
-| Outstanding/out-of-order transactions | ⬜ |
+| Outstanding/out-of-order transactions | ✅ |
 | Error response (SLVERR/DECERR)         | ✅ |
 | Protocol assertion checks               | ✅ |
+
+## Results
+
+- Functional coverage: `XX%`
+- Code coverage: `XX%`
+- Bugs found/fixed during verification: list key ones here
