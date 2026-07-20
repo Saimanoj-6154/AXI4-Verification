@@ -71,4 +71,16 @@ make waves TEST=axi4_write_read_test
 ```bash
 make cov_report
 ```
+## Verification Summary
 
+| Feature                  | Status |
+|----------------------------|--------|
+| Single beat read/write      | ✅ |
+| INCR burst (1–256 beats)     | ✅ |
+| WRAP burst                    | ✅ |
+| FIXED burst                    | ✅ |
+| Narrow transfers                | ✅ |
+| Unaligned start address          | ✅ |
+| Outstanding/out-of-order transactions | ⬜ |
+| Error response (SLVERR/DECERR)         | ✅ |
+| Protocol assertion checks               | ✅ |
